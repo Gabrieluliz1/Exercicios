@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pedido de Pizza</title>
+</head>
+<body>
+
+<h1>Escolha seus sabores de pizza</h1>
+
+<form id="pedidoForm" action="javascript:void(0);">
+  <label for="sabor1">Sabor 1:</label>
+  <input type="text" id="sabor1" name="sabor1" required><br><br>
+  
+  <label for="sabor2">Sabor 2:</label>
+  <input type="text" id="sabor2" name="sabor2" required><br><br>
+  
+  <label for="sabor3">Sabor 3:</label>
+  <input type="text" id="sabor3" name="sabor3" required><br><br>
+  
+  <label for="sabor4">Sabor 4:</label>
+  <input type="text" id="sabor4" name="sabor4" required><br><br>
+  
+  <label for="refrigerante">Quantidade de Refrigerantes:</label>
+  <input type="number" id="refrigerante" name="refrigerante" min="0" required><br><br>
+  
+  <button type="submit">Fazer Pedido</button>
+</form>
+<script src="script.js"></script>   
+<div id="resultadoPedido"></div><body>
